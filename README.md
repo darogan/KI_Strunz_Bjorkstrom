@@ -29,16 +29,12 @@ On publication
 | 1_HU12_P11  | CD39+KIR+  |
 | 2_HU12_P9	  | CD39-KIR-  |
 | 3_HU12_P10  | CD39-KIR+  |
-| 4_HU12_P8	  | CD39+KIR-  |
 | 5_HU13_P11  | CD39+KIR+  |
 | 6_HU13_P9	  | CD39-KIR-  |
 | 7_HU13_P10  | CD39-KIR+  |
-| 8_HU13_P8	  | CD39+KIR-  |
 | 9_Hu05_P11	| CD39+KIR+  |
 | 10_Hu05_P9	| CD39-KIR-  |
 | 11_Hu05_P10	| CD39-KIR+  |
-| 12_Hu05_P8	| CD39+KIR-  |
-| 13_Hu7_P10	| CD39+KIR-  |
 | 14_Hu7_P12	| CD39+KIR+  |
 | 15_Hu7_P13	| CD39-KIR+  |
 | 16_Hu7_P9	  | CD39-KIR-  |
