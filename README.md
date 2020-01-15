@@ -22,6 +22,8 @@ On publication
 
 ### Bulk RNA-Seq ###
 
+RNA-seq data have been deposited in the ArrayExpress database at EMBL-EBI under accession number [E-MTAB-8709](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8709)
+
 #### Sample Table ####
 
 | Sample Name	| Group      |
@@ -93,11 +95,11 @@ Details for the R version and packages used to create all figure
 
 ### Links ###
 
-Description   | URL
-------------- | ----------
-Publication   | [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/) [[<s>bioRxiv</s>]](https://doi.org/10.1101/)
-Raw Data      | ArrayExpress EMBL-EBI [<s>E-MTAB-????</s>](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-????)
-Björkström Group | [Björkström group website](https://ki.se/en/medh/niklas-bjorkstrom-group)
+Description        | URL
+------------------ | ----------
+Publication        | [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/) [[<s>bioRxiv</s>]](https://doi.org/10.1101/)
+Raw Data           | ArrayExpress EMBL-EBI [E-MTAB-8709](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8709)
+Björkström Group   | [Björkström group website](https://ki.se/en/medh/niklas-bjorkstrom-group)
 CTR Bioinformatics | [CTR-BFX](https://www.trophoblast.cam.ac.uk/Resources/BioInformatics)
 
 ### Contact ###
