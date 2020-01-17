@@ -94,6 +94,16 @@ Figure S2 A   | <IMG SRC="QC/RSH_KI_0001_Fig.PCA.Final.png" width=250px> <br>[[P
 Figure S2 B   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.png" width=250px> <br> [[PDF](DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.png)]| Heatmap summarising differentially expressed genes from the three comparisons
 Figure S2 C   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png" width=250px> <br> [[PDF](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png)]| Volcano plot for KIR+CD39- Vs KIR-CD39-
 
+#### Tables of differentially expressed genes (Bulk RNA-Seq only) ####
+
+Normalised read counts [[CSV](RSH_KI_0001_DESeq2_NormalisedReadCounts.ann.csv)]
+
+| Comparison | Raw DEGs | CV2 Filtered | CV2 and MeanMax Filtered |
+| ---------- | -------- | ------------ | ------------------------ |
+| Hu_CD39mKIRp_vs_Hu_CD39mKIRm | [[CSV](RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_Hu_CD39mKIRp_vs_Hu_CD39mKIRm.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_CV2Filtered_padj_0.05_l2fc_1.5_CV2_3.8025.Hu_CD39mKIRp_vs_Hu_CD39mKIRm.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_MaxMeanCV2Filtered.Hu_CD39mKIRp_vs_Hu_CD39mKIRm.ann.csv)] |
+| Hu_CD39pKIRp_vs_Hu_CD39mKIRm | [[CSV](RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_Hu_CD39pKIRp_vs_Hu_CD39mKIRm.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_CV2Filtered_padj_0.05_l2fc_1.5_CV2_3.8025.Hu_CD39pKIRp_vs_Hu_CD39mKIRm.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_MaxMeanCV2Filtered.Hu_CD39pKIRp_vs_Hu_CD39mKIRm.ann.csv)] |
+| Hu_CD39pKIRp_vs_Hu_CD39mKIRp | [[CSV](RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_Hu_CD39pKIRp_vs_Hu_CD39mKIRp.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_CV2Filtered_padj_0.05_l2fc_1.5_CV2_3.8025.Hu_CD39pKIRp_vs_Hu_CD39mKIRp.ann.csv)] | [[CSV](RSH_KI_0001_DESeq2_DEGs_MaxMeanCV2Filtered.Hu_CD39pKIRp_vs_Hu_CD39mKIRp.ann.csv)] |
+
 ### Session Information ###
 Details for the R version and packages used to create all figures
 
