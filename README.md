@@ -14,7 +14,7 @@
 
 ### Publication ###
 
-Strunz, B., Bister, J., Hamilton, R.S., Jönsson, H., Crona-Guterstam, Y., Kvedaraite, E.,  Filipovic, I., Sleiers, N., Dumitrescu, B., Friberg, D., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Ivarsson, M.A., & Björkström, N.K. [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/) [[<s>bioRxiv</s>]](https://doi.org/10.1101/)
+Strunz, B., Bister, J., Hamilton, R.S., Jönsson, H., Crona-Guterstam, Y., Kvedaraite, E.,  Filipovic, I., Sleiers, N., Dumitrescu, B., Friberg, D., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Ivarsson, M.A., & Björkström, N.K. [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/)
 
 ### Abstract ###
 
@@ -83,15 +83,59 @@ FeatureCount gene count files are available in the [FeatureCount](FeatureCount/)
 
 #### Script to reproduce paper figures (Bulk RNA-Seq only) ####
 
-Figure        | Description
-------------- | --------------
-Figure 2G     | PCA
+The R script used to generate the figures in the paper is [RSH_KI_0001.QC.R](RSH_KI_0001.QC.R) available to download. Required R-packages are listed at the top of the file and must be installed prior to running the script.
 
+Figure        | File | Description
+------------- | ---- | ----------
+Figure 2 F   | <IMG SRC="QC/RSH_KI_0001_Fig.PCA.Final.png" width=250px> <br>[[PDF](QC/RSH_KI_0001_Fig.PCA.Final.pdf)] [[PNG](QC/RSH_KI_0001_Fig.PCA.Final.png)]| `RSH_KI_0001_Fig.PCA.Final.pdf` <p> <b>A.</b> PCA for top 500 most variable genes
+Figure 2 G (left)   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png" width=250px> <br>[[PDF](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png)]| `RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.pdf` <p> Volcano plot for KIR+CD39+ Vs KIR-CD39-
+Figure 2 G (right)   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRp_Volcanoplot_V3.png" width=250px> <br>[[PDF](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRp_Volcanoplot_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRp_Volcanoplot_V3.png)]| `RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39pKIRp_vs_Hu_CD39mKIRp_Volcanoplot_V3.pdf` <p> Volcano plot for KIR+CD39+ Vs KIR+CD39-
+Figure S2 A   | <IMG SRC="QC/RSH_KI_0001_Fig.PCA.Final.png" width=250px> <br>[[PDF](QC/RSH_KI_0001_Fig.PCA.Final.pdf)] [[PNG](QC/RSH_KI_0001_Fig.PCA.Final.png)]| `RSH_KI_0001_Fig.PCA.Final.pdf` <p> <b>B.</b> PCA Principle components explained
+Figure S2 B   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.png" width=250px> <br> [[PDF](DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.png)]| `RSH_KI_0001_DEGs_padj_0.05_l2fc_3_CV2_1.95_HeatMap_Hu_CD39pKIRp_vs_CD39mKIRm_vs_CD39mKIRp_V3.pdf` <p> Heatmap summarising differentially expressed genes from the three comparisons
+Figure S2 C   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png" width=250px> <br> [[PDF](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.pdf)] [[PNG](DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.png)]| `RSH_KI_0001_DESeq2_DEGs_padj_0.05_l2fc_1.5_CV2_1.95_read_10_Hu_CD39mKIRp_vs_Hu_CD39mKIRm_Volcanoplot_V3.pdf` <p>Volcano plot for KIR+CD39- Vs KIR-CD39-
 
 ### Session Information ###
-Details for the R version and packages used to create all figure
+Details for the R version and packages used to create all figures
 
+````
+> sessionInfo()
+R version 3.4.4 (2018-03-15)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS  10.14.6
 
+Matrix products: default
+BLAS: /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
+
+attached base packages:
+[1] parallel  stats4    stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] eulerr_5.1.0               RColorBrewer_1.1-2         pheatmap_1.0.12            Cairo_1.5-10               ggforce_0.3.1             
+ [6] biomaRt_2.34.2             DESeq2_1.18.1              SummarizedExperiment_1.8.1 DelayedArray_0.4.1         Biobase_2.38.0            
+[11] GenomicRanges_1.30.3       GenomeInfoDb_1.14.0        IRanges_2.12.0             S4Vectors_0.16.0           BiocGenerics_0.24.0       
+[16] reshape2_1.4.3             reshape_0.8.8              useful_1.2.6               matrixStats_0.55.0         Matrix_1.2-17             
+[21] cowplot_0.9.4              ggrepel_0.8.1              ggplot2_3.2.1              dplyr_0.8.3                tidyr_1.0.0               
+
+loaded via a namespace (and not attached):
+ [1] bitops_1.0-6           bit64_0.9-7            progress_1.2.2         httr_1.4.1             tools_3.4.4            backports_1.1.4       
+ [7] R6_2.4.0               rpart_4.1-15           Hmisc_4.2-0            DBI_1.0.0              lazyeval_0.2.2         colorspace_1.4-1      
+[13] nnet_7.3-12            withr_2.1.2            tidyselect_0.2.5       gridExtra_2.3          prettyunits_1.0.2      curl_4.2              
+[19] bit_1.1-14             compiler_3.4.4         htmlTable_1.13.2       labeling_0.3           scales_1.0.0           checkmate_1.9.4       
+[25] genefilter_1.60.0      stringr_1.4.0          digest_0.6.21          foreign_0.8-72         XVector_0.18.0         base64enc_0.1-3       
+[31] pkgconfig_2.0.3        htmltools_0.3.6        htmlwidgets_1.3        rlang_0.4.0            rstudioapi_0.10        RSQLite_2.1.2         
+[37] farver_1.1.0           BiocParallel_1.12.0    acepack_1.4.1          RCurl_1.95-4.12        magrittr_1.5           GenomeInfoDbData_1.0.0
+[43] Formula_1.2-3          Rcpp_1.0.2             munsell_0.5.0          lifecycle_0.1.0        stringi_1.4.3          yaml_2.2.0            
+[49] MASS_7.3-51.4          zlibbioc_1.24.0        plyr_1.8.4             grid_3.4.4             blob_1.2.0             crayon_1.3.4          
+[55] lattice_0.20-38        splines_3.4.4          annotate_1.56.2        hms_0.5.1              locfit_1.5-9.1         zeallot_0.1.0         
+[61] knitr_1.25             pillar_1.4.2           geneplotter_1.56.0     XML_3.98-1.20          glue_1.3.1             latticeExtra_0.6-28   
+[67] data.table_1.11.8      vctrs_0.2.0            tweenr_1.0.1           gtable_0.3.0           purrr_0.3.2            polyclip_1.10-0       
+[73] assertthat_0.2.1       xfun_0.9               xtable_1.8-4           survival_2.44-1.1      tibble_2.1.3           AnnotationDbi_1.40.0  
+[79] memoise_1.1.0          cluster_2.1.0
+````
 
 ### Links ###
 
