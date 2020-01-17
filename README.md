@@ -48,7 +48,7 @@ Raw sequencing files are run through quality control using FastQC (v0.11.5) and 
 
 > Additional Processing Steps
 
-CV2
+Additional filtering steps were applied in order to focus on the high confidence DEGs. First, genes with exceeding inter-donor variation were excluded if the calculated CV2 ([Anders & Huber 2010](https://doi.org/10.1186/gb-2010-11-10-r106)) surpassed a cut-off of CV2 >1.95 in the subset with highest read count. Next, genes with a mean expression of <10 reads were excluded and a FDR adjusted p-value <0.05 was used for determining significant DEGs.
 
 > Resources Used
 
