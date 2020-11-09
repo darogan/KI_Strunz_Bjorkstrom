@@ -1,20 +1,23 @@
 # Continuous human uterine NK cell differentiation in response to endometrial regeneration and pregnancy
 
-**Benedikt Strunz<sup>1,‡</sup>, Jonna Bister<sup>1</sup>, Russell S. Hamilton<sup>2</sup>, Hanna Jönsson<sup>1</sup>, Ylva Crona-Guterstam<sup>1,3</sup>, Egle Kvedaraite<sup>1,3</sup>, Iva Filipovic<sup>1</sup>, Natalie Sleiers<sup>1</sup>, Bogdan Dumitrescu<sup>4</sup>, Danielle Friberg<sup>5</sup>, Mats Brännström<sup>6</sup>, Antonio Lentini<sup>7</sup>, Björn Reinius<sup>7</sup>, Martin Cornillet<sup>1</sup>, Tim Willinger<sup>1</sup>, Sebastian Gidlöf<sup>3</sup>, Martin A. Ivarsson<sup>1</sup> & Niklas K. Björkström<sup>1,‡</sup>**
+**Benedikt Strunz<sup>1,‡</sup>, Jonna Bister<sup>1</sup>, Hanna Jönsson<sup>1</sup>, Iva Filipovic<sup>1</sup>, Ylva Crona-Guterstam<sup>1,2,3</sup>, Egle Kvedaraite<sup>1,4</sup>, Natalie Sleiers<sup>1</sup>, Bogdan Dumitrescu<sup>5</sup>, Mats Brännström<sup>6</sup>, Antonio Lentini<sup>7</sup>, Björn Reinius<sup>7</sup>, Martin Cornillet<sup>1</sup>, Tim Willinger<sup>1</sup>, Sebastian Gidlöf<sup>3,8</sup>, Russell S. Hamilton<sup>9,10</sup>, Martin A. Ivarsson<sup>1</sup> & Niklas K. Björkström<sup>1,‡</sup>**
 
 <sup>1</sup> Center for Infectious Medicine, Department of Medicine Huddinge, Karolinska Institutet, Karolinska University Hospital, Stockholm, Sweden <br>
-<sup>2</sup> Centre for Trophoblast Research, University of Cambridge, Cambridge, UK <br>
-<sup>3</sup> Department of Women’s and Children’s Health, Karolinska Institutet, Stockholm, Sweden <br>
-<sup>4</sup> Department of Obstetrics and Gynecology, Mälarsjukhuset, Eskilstuna, Sweden <br>
-<sup>5</sup> Department of Surgical Sciences, Uppsala University, Uppsala, Sweden <br>
-<sup>6</sup> Department of Obstetrics and Gynecology, University of Gothenburg, Gothenburg, Sweden <br>
+<sup>2</sup>Department of Clinical Science, Intervention and Technology, Karolinska Institutet, Stockholm, Sweden <br>
+<sup>3</sup> Department of Obstetrics and Gynecology, Karolinska University Hospital Huddinge, Stockholm, Sweden <br>
+<sup>4</sup> Childhood Cancer Research Unit, Department of Women’s and Children’s Health, Karolinska Institutet, Stockholm, Sweden <br>
+<sup>5</sup> Department of Obstetrics and Gynecology, Mälarsjukhuset, Eskilstuna, Sweden <br>
+<sup>6</sup> Department of Obstetrics and Gynecology, University of Gothenburg, Gothenburg, Swedenn <br>
 <sup>7</sup> Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden <br>
+<sup>8</sup> Department of Obstetrics and Gynecology, Stockholm South General Hospital, Stockholm, Sweden <br>
+<sup>9</sup> Centre for Trophoblast Research, University of Cambridge, Cambridge, UK <br>
+<sup>10</sup> Department of Genetics, University of Cambridge, Cambridge, UK <br>
 <sup>‡</sup> Corresponding authors: benedikt.strunz@ki.se, niklas.bjorkstrom@ki.se
 
 
 ### Publication ###
 
-Strunz, B., Bister, J., Hamilton, R.S., Jönsson, H., Crona-Guterstam, Y., Kvedaraite, E.,  Filipovic, I., Sleiers, N., Dumitrescu, B., Friberg, D., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Ivarsson, M.A., & Björkström, N.K. [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/)
+Strunz, B., Bister, J., Jönsson, H., Filipovic, I., Crona-Guterstam, Y., Kvedaraite, E.,  Sleiers, N., Dumitrescu, B., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Hamilton, R.S., Ivarsson, M.A., & Björkström, N.K. [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/)
 
 ### Abstract ###
 
@@ -96,7 +99,7 @@ Figure S2 C   | <IMG SRC="DifferentialGeneExpression/RSH_KI_0001_DESeq2_DEGs_pad
 
 #### Tables of differentially expressed genes (Bulk RNA-Seq only) ####
 
-Normalised read counts [[CSV](RSH_KI_0001_DESeq2_NormalisedReadCounts.ann.csv)]
+Normalised read counts [[CSV](DifferentialGeneExpression//RSH_KI_0001_DESeq2_NormalisedReadCounts.ann.csv)]
 
 | Comparison | Raw DEGs | CV2 Filtered | CV2 and MeanMax Filtered |
 | ---------- | -------- | ------------ | ------------------------ |
