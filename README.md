@@ -17,7 +17,7 @@
 
 ### Publication ###
 
-Strunz, B., Bister, J., Jönsson, H., Filipovic, I., Crona-Guterstam, Y., Kvedaraite, E.,  Sleiers, N., Dumitrescu, B., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Hamilton, R.S., Ivarsson, M.A., & Björkström, N.K. [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/)
+Strunz, B., Bister, J., Jönsson, H., Filipovic, I., Crona-Guterstam, Y., Kvedaraite, E.,  Sleiers, N., Dumitrescu, B., Brännström, M., Lentini, A., Reinius, B., Cornillet, M., Willinger, T., Gidlöf, S., Hamilton, R.S., Ivarsson, M.A., & Björkström, N.K. (2021) Continuous human uterine NK cell differentiation in response to endometrial regeneration and pregnancy. Science Immunology, 6, eabb7800 [[Science Immunology]](http://immunology.sciencemag.org/content/6/56/eabb7800) [[DOI]](https://doi.org/10.1126/sciimmunol.abb7800)
 
 ### Abstract ###
 
@@ -154,7 +154,7 @@ loaded via a namespace (and not attached):
 
 Description        | URL
 ------------------ | ----------
-Publication        | [[<s>JOURNAL</s>]](https://) [[<s>DOI</s>]](https://doi.org/) [[<s>bioRxiv</s>]](https://doi.org/10.1101/)
+Publication        | [[Science Immunology]](http://immunology.sciencemag.org/content/6/56/eabb7800) [[DOI]](https://doi.org/10.1126/sciimmunol.abb7800)
 Raw Data           | ArrayExpress EMBL-EBI [E-MTAB-8709](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8709)
 Björkström Group   | [Björkström group website](https://ki.se/en/medh/niklas-bjorkstrom-group)
 CTR Bioinformatics | [CTR-BFX](https://www.trophoblast.cam.ac.uk/Resources/BioInformatics)
